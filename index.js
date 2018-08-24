@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 var holder;
-var targetc = "422363521641218048";
+var targetc = "482609538873425921";
 bot.on('ready', () => {
     console.log('Ready!');
 });
