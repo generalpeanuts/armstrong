@@ -8,7 +8,7 @@ bot.on('ready', () => {
 
 
 
-bot.login('NDgyMjkwMzc4OTI2NzE5MDI2.DmEseg.bQ0UoRL6MrjxwT15idSUy3R1UBk');
+bot.login(process.env.token);
 
 bot.on('message', message => {
     if(message.content.startsWith('!am '))
