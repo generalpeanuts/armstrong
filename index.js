@@ -28,7 +28,7 @@ bot.on('message', message => {
     if(message.content == '!seppuku')
     {
         var a = message.author;
-        message.channel.send(a + 'has brought dishonor upon his family and has commited seppuku!');
+        message.channel.send(a + ' has brought dishonor upon his family and has commited seppuku!');
         message.channel.send(new Discord.Attachment('./seppuku.png', 'seppuku.png') );
     }
         
