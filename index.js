@@ -25,7 +25,7 @@ bot.on('message', message => {
         message.delete();
         message.channel.send(' **Lisanna Bot Help** \n`!am <text>`   *Lisanna deletes your message and posts it anonymously.*');
     }
-    if(message.content.startsWith{'!seppuku'))
+    if(message.content == '!seppuku')
     {
         var a = message.author;
         message.channel.send(a +' has brought dishonor to his family and has commited seppuku!');
