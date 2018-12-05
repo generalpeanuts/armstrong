@@ -28,11 +28,11 @@ bot.on('message', message => {
     if(message.content == '!seppuku')
     {
         var a = message.author;
-        message.channel.send({
+        message.channel.send(a +' has brought dishonor to his family and has commited seppuku!' + {
             files: [
                 "./seppuku.png"
             ]
-        }, a +' has brought dishonor to his family and has commited seppuku!');
+        });
     }
         
 });
